@@ -1,0 +1,527 @@
+
+/******************************************** PHONES SIZE 600PX ********************************/
+
+/* ------------------------------------- HEADER SECTION ----------------------------------- */
+
+@media screen and (max-width: 600px){
+    .header{
+        padding: 30px 10%;
+    }
+
+    .logo .nav-toggle{
+        width: 600px;
+    }
+    .logo{
+        font-size: 35px;
+    }
+    
+    .nav-toggle{
+        display: block;
+        color: #fff;
+    }
+
+     .hamburger-btn{
+        font-size: 45px;
+    } 
+
+    .close-toggle{
+        display: none;
+        color: #fff;
+    }
+
+    .navbar{
+        position: absolute;
+        background: #0b132195;
+        left: -100%;
+        top:100%;
+        width:100%;
+        padding-block: 20px;
+        transition: 0.2s ease-in-out;
+        margin-top: 10px;
+    }
+
+    .nav-links.active{
+        left: 0;
+    }
+    .navbar a{
+        flex-direction: column;
+        display: flex;
+        margin-bottom:40px;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        letter-spacing: 2px;
+        font-weight: 500;
+        color: #fff;
+    }
+    
+
+
+/* ----------------------------------------------- HOME SECTION ------------------------------- */
+
+    .home{
+        display: flex;
+        flex-direction:column-reverse;
+        padding: 200px 110% 30%;
+    }
+    .home-content{
+        margin-top: 20px;
+        width: 600px;
+    }
+
+
+/* ---------------------------------------------- ABOUT SECTION ----------------------- */
+
+    .about{
+        display: flex;
+        flex-direction:column;
+        padding: 30px 110% 30%;
+        gap: 6rem;
+    }
+    .about-text{
+        width: 600px;
+    }
+    .about-text .box-btn{
+    padding: 12px 15px;
+    }
+
+
+
+/* -------------------------------------- MY SERVICES SECTION --------------------------- */
+
+    .container{
+        padding: 30px 33% 30%;
+        display: flex;
+        flex-direction: column;
+    }
+    .services-list{
+        width: 600px;
+        gap:6rem;
+    }
+    .sub-title{
+    width: 600px;
+    }
+
+
+    
+/* -------------------------------------------- MY SKILLS SECTION ----------------------- */
+
+    .container1{
+        padding: 30px 97% 30%;
+    }
+    .technical-bars{
+        width: 600px;
+    }
+    .sub-title2{
+        width: 600px;
+    }
+
+
+
+
+/* ---------------------------------- PROJECT SECTION ----------------------------- */
+
+    .main-text{
+        padding: 150px 33% 30%;
+    }
+    .portfolio-content{
+        width: 600px;
+    }
+    .sub-title3{
+        width: 600px;
+    }
+
+
+
+
+
+/* ---------------------------------------------- CONTACT ME SECTION ----------------------- */
+
+    .contact-text{
+        display: flex;
+        flex-direction: column;
+        padding: 30px 110% 30%;
+        gap: 6rem;
+        width: 600px;
+    }
+    
+    .sub-title4{
+        width: 830px;
+    }
+
+
+
+
+/* ----------------------------------------- FOOTER SECTION ----------------------- */
+
+    .footer-text{
+        width: 600px;
+        padding: 0px 33% 0%;
+    }
+
+    .last-text{
+        width: 600px;
+    }
+
+    .top{
+        position: fixed;
+        bottom: 1.1rem;
+        right: 10rem;
+    }
+}
+
+
+
+
+/******************************************************* TABLETS SIZE 768PX *********************/
+
+/* ----------------------------------------------------- HEADER SECTION ------------------------ */
+
+@media screen and (min-width:601px) and (max-width: 768px){
+    .header{
+        padding: 30px 8%;
+        width: 100%;
+    }
+
+    /* ----------------------------------------------- HOME SECTION ------------------- */
+
+    .home{
+        padding-bottom: 30%;
+        padding-top: 30%;
+        width: 768px;
+        gap:6rem;
+    }
+    .home-content{
+        /* width:450px; */
+        width: 384px;
+
+
+    } 
+
+/* ---------------------------------------------- ABOUT SECTION ----------------------- */
+
+.about{
+    /* padding: 0px 10% 30%; */
+    padding-bottom: 30%;
+    width: 768px;
+    gap: 6rem;
+}
+.about-text{
+    /* width:450px; */
+    width: 384px;
+    padding: 0 20px 0 0;
+
+
+}
+
+/* -------------------------------------- MY SERVICES SECTION --------------------------- */
+
+.container{
+    padding-bottom: 30%;
+}
+.services-list{
+    gap:6rem;
+    width: 768px;
+}
+.sub-title{
+    width: 768px;
+}
+
+/* -------------------------------------------- MY SKILLS SECTION ----------------------- */
+
+.skills{
+    padding-bottom:30%;
+}
+.container1{
+    width: 768px;
+}
+.technical-bars{
+    width: 768px;
+}
+.sub-title2{
+    width: 768px;
+}
+
+/* ---------------------------------- PROJECT SECTION ----------------------------- */
+
+.portfolio-content{
+    width: 968px;
+    gap: 2rem;
+    padding-bottom: 20%;
+    /* padding: 0 190x 30%; */
+}
+
+.row{
+    width:420px;
+    /* gap: 160rem; */
+    padding: 0 40PX;
+}
+.sub-title3{
+    width:968px;
+}
+
+/* ---------------------------------------------- CONTACT ME SECTION ----------------------- */
+
+
+.contact-text{
+    width: 768px;
+    gap: 6rem;
+    padding: 0 40px;
+}
+.contact-lists .contact-div{
+    width: 384px;
+}
+.contact-form .form-div{
+    width: 384px;
+}
+.sub-title4{
+    width: 968px;
+}
+
+/* ----------------------------------------- FOOTER SECTION ----------------------- */
+
+
+.last-text{
+    width: 968px;
+}
+.top{
+    position: fixed;
+    bottom: 1.8rem;
+    right: 3.1rem;
+}
+    
+}
+
+
+
+
+
+
+
+/******************************************************* LAPTOPS SIZE 992PX ****************/
+
+
+ @media screen and (min-width:769px) and (max-width: 992px){
+    .header{
+        /* background:red; */
+    }
+
+ /* ----------------------------------------------------- HOME SECTION ------------------- */
+
+    .home{
+        width:992px;
+        gap: 7rem;
+        padding-bottom: 30%;
+
+    }
+    .home-content{
+    width:384.5px;
+    }
+
+/* ---------------------------------------------- ABOUT SECTION ----------------------- */
+
+.about{
+    width:992px;
+    gap: 12rem;
+}
+.about-text{
+    width:384.5px;
+    padding:  0 80px 0 0;
+}
+
+/* -------------------------------------- MY SERVICES SECTION --------------------------- */
+
+.container{
+    padding-bottom: 20%;
+}
+.services-list{
+    gap:6rem;
+    width: 769px;
+}
+.sub-title{
+    width: 769px;
+}
+
+/* -------------------------------------------- MY SKILLS SECTION ----------------------- */
+
+.skills{
+    padding-bottom:20%;
+    width: 992px;
+
+}
+.container1{
+    width: 992px;
+}
+.technical-bars{
+    width:769px;
+}
+.sub-title2{
+    width:769px;
+}
+
+/* ---------------------------------- PROJECT SECTION ----------------------------- */
+
+.portfolio-content{
+    width: 968px;
+    gap: 6rem;
+    padding: 0 60px 20%;
+}
+
+.row{
+    width: 420px;
+    gap: 16rem;
+}
+.sub-title3{
+    width: 968px;
+}
+
+
+
+/* ---------------------------------------------- CONTACT ME SECTION -------------------- */
+
+.contact-text{
+    width: 992px;
+    /* gap: 6rem; */
+    /* padding: 0 40px; */
+}
+.contact-lists .contact-div{
+    width:384.5px;
+
+}
+.contact-form .form-div{
+    width:384.5px;
+
+}
+.sub-title4{
+    width: 968px;
+}
+
+/* ----------------------------------------- FOOTER SECTION ----------------------- */
+
+
+.last-text{
+    width: 992px;
+}
+
+.top{
+    position: fixed;
+    bottom: 1.7rem;
+    right: 4.1rem;
+}
+
+} 
+
+
+
+
+
+
+/******************************************************* MONITOR SIZE 993PX ****************/
+
+
+@media screen and (min-width:993px) and (max-width: 1200px){
+    .header{
+        /* background:gray; */
+    }
+
+ /* ----------------------------------------------------- HOME SECTION ------------------- */
+
+ .home{
+    width:993px;
+    gap: 10rem;
+    padding-bottom: 30%;
+}
+.home-content{
+width:496.5px;
+}
+
+/* ---------------------------------------------- ABOUT SECTION ----------------------- */
+
+.about{
+    width:993px;
+    gap: 13rem;
+    padding-bottom: 20%;
+}
+.about-text{
+    width:496.5px;
+    padding:  0 40px 0 0;
+}
+
+/* -------------------------------------- MY SERVICES SECTION --------------------------- */
+
+.container{
+    padding-bottom: 20%;
+}
+.services-list{
+    gap:6rem;
+    width: 993px;
+}
+.sub-title{
+    width: 993px;
+}
+
+/* -------------------------------------------- MY SKILLS SECTION ----------------------- */
+
+.skills{
+    padding-bottom:20%;
+    width:1200px;
+
+}
+.container1{
+    width:1200px;
+}
+.technical-bars{
+    width:993px;
+}
+.sub-title2{
+    width:993px;
+}
+
+/* -------------------------------------- PROJECT SECTION ----------------------------- */
+
+ .portfolio-content{
+    width: 1200px;
+    gap:3rem;
+    padding: 0 60px 20%;
+}
+
+.row{
+    width: 496.5px;
+    /* gap: 3rem; */
+}
+.sub-title3{
+    width:1200px;
+} 
+
+/* -------------------------------------- CONTACT ME SECTION -------------------- */
+
+.contact-text{
+    width: 1200px;
+    gap: 3rem;
+    padding: 0 40px 0 0;
+}
+.contact-lists .contact-div{
+    width:496.5px;
+
+}
+.contact-form .form-div{
+    width:496.5px;
+
+}
+.sub-title4{
+    width: 1200px;
+}
+
+/* ----------------------------------------- FOOTER SECTION ----------------------- */
+
+.last-text{
+    width:1200px;
+}
+
+.top{
+    position: fixed;
+    bottom: 1.7rem;
+    right: 4.1rem;
+}
+
+}  
