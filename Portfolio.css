@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -23,8 +24,6 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-
-    /* position: relative; */
 }
 
 .logo{
@@ -35,7 +34,6 @@ body{
     font-weight: 600;
     cursor: default;
     gap: 16rem;
-
     opacity: 0;
     animation: slideRight 1s ease forwards;
 }
@@ -60,9 +58,6 @@ body{
 
 
 
-
-
-
 .nav-toggle{
     display: none;
 }
@@ -83,33 +78,13 @@ body{
     align-items: center;
     gap:6rem;
     padding: 150px 10% 20%;
-    /* min-height: 100vh; */
-
     min-height: 80vh;
-
     height: 100vh;
     height: 100%;
     width: 100%;
-    /* position:relative; */
-    /* justify-content: space-between; */
-    /* display: flex; */
 }
-
-/* .portfolio-img img{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 350px;
-    height: 350px;
-    background: transparent;
-    border: 2px solid #0ef;
-    border-radius: 50%;
-} */
  
-
 .home-content{
-    /* max-width: 600px; */
-
     width: 600px;
 }
 
@@ -203,14 +178,9 @@ body{
 }
 
 .img-box img{
-    /* width: 100%; */
     width:359.5px;
-    /* max-width: 350px; */
-    /* width: 350px; */
-    /* height:427.875px; */
     height: auto;
     border-radius: 50%;
-    /* border: 2px solid white; */
     box-shadow:0 0 20px #0ef,
                0 0 50px #0ef;
 
@@ -228,38 +198,17 @@ body{
     gap: 19rem;
     padding-left: 110px;
     padding-bottom: 10%;
-    /* min-height: 100vh; */
-
-    /* height: 100vh; */
-
     height: 100%;
     width: 100%;
-/*     
-    position: relative;
-    justify-content: space-between;
-    display: flex; */
 }
 
 .img-box2 img{
-    /* width: 100%; */
     width:359.5px;
-
-    /* max-width: 350px; */
     height: auto;
     border-radius: 50%;
     box-shadow:0 0 20px #0ef,
     0 0 50px #0ef;
 }
-/* .about img{
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    height: 300px;
-    background: transparent;
-    border: 2px solid #0ef;
-    border-radius: 50%;
-} */
 
 .about-text h2{
     font-size: 60px;
@@ -288,14 +237,10 @@ body{
 
 
 
-
-
 /* -------------------------------------- MY SERVICES SECTION --------------------------- */
-
 
 #services{
     color: aliceblue;
-    /* font-size: 25px; */
     line-height: 1.4;
     margin-bottom: 4rem;
     letter-spacing: 1px;
@@ -354,37 +299,9 @@ body{
     display: inline-block;
 }
 
-/* .read{
-    display: inline-block;
-    padding: 12px 28px;
-    background: #0ef;
-    border-radius: 40px;
-    font-size: 16px;
-    color: #081b29;
-    letter-spacing: 1px;
-    text-decoration: none;
-    font-weight: 600;
-    opacity: 0;
-    animation: slideTop 1s ease forwards;
-    animation-delay:  2s;
-    box-shadow: 0 0 5px #0ef,
-    0 0 25px #0ef;
-}
-
-.read:hover{
-    box-shadow: 0 0 5px cyan,
-    0  0 25px cyan,
-     0 0 50px cyan,
-    0 0 100px cyan, 
-    0 0 200px cyan
-} */
-
-
 .services-list div:hover{
     transform: translateY(-10px);
 } 
-
-
 
 
 
@@ -530,18 +447,12 @@ body{
     animation: showText 0.5s 1.5s linear forwards;
     opacity: 0;
 }
+
 @keyframes showText{
     100%{
         opacity: 1;
     }
 }
-
-
-
-
-
-
-
 
 
 
@@ -645,12 +556,9 @@ body{
 
 
 
-
 /* ---------------------------------------------- CONTACT ME SECTION ----------------------- */
 
-
 .contact{
-    /* padding-top: 130px; */
     margin-top:130px;
 }
 
@@ -659,7 +567,6 @@ body{
     line-height: 1;
     text-align: center;
     margin-bottom: 80px;
-
 }
 
 .contact h2 span{
@@ -671,36 +578,27 @@ body{
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     justify-content: space-evenly;
-
     display: flex;
-    /* padding: 0px 10% 0; */
-
-    /* gap: 9rem; */
-    /* min-height: 100vh; */
     height: 100%;
     width: 100%;
 }
 
 .contact-lists .contact-div{
     background-color: transparent;
-    /* padding: 40px; */
     font-size: 16px;
     border-right: 19px;
     border-radius: 20px;
     transition: background 0.5s, transform 0.5s;
     box-shadow: 1px 1px 20px #012290f7,
     1px 1px 40px #0053b8f7;
-
     height: 400px;
     width: 500px;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .contact-list{
-    /* margin-bottom: 6rem; */
     margin-top: 20px;
 }
 .contact-list h2{
@@ -734,7 +632,6 @@ body{
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    /* flex-direction: column; */
     width: 40px;
     height: 40px;
     background: transparent;
@@ -767,7 +664,6 @@ body{
     transition: background 0.5s, transform 0.5s;
     box-shadow: 1px 1px 20px #012290f7,
     1px 1px 40px #0053b8f7;
-
     height: 400px;
     width: 500px;
 }
@@ -831,7 +727,6 @@ form .user-detail .input-box{
     0  0 25px cyan,
      0 0 50px cyan,
     0 0 100px cyan;
-    /* 0 0 200px cyan; */
 }
 
 
@@ -864,13 +759,6 @@ form .user-detail .input-box{
     padding: 10px;
     border-radius: 0.5rem;
 }
-
-
-
-
-
-
-
 
 
 
