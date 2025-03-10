@@ -492,10 +492,14 @@ body{
 }
 
 .row img{
-    width: 100%;
+    /* width: 100%; */
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
+    width: 459px;
+    height:300px;
+    /* height: 300px; */
+    /* object-fit:cover; */
 }
 
 .layer{
@@ -809,3 +813,10 @@ form .user-detail .input-box{
         opacity: 1;
     }
 }
+
+
+
+
+
+
+

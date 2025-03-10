@@ -34,12 +34,11 @@ closeBtn.addEventListener("click", ()=>{
 })
 
 
-contactNav.forEach((allLink)=>{
-    allLink.addEventListener("click",()=>{
-        navbar.style.display="none";
-        closeBtn.style.display="none";
-        toggleBtn.style.display="block";
-        navLinks.classList.toggle("active");
-    
-    })
-})
+// contactNav.forEach((allLink)=>{
+//     allLink.addEventListener("click",()=>{
+//         navbar.style.display="none";
+//         closeBtn.style.display="none";
+//         toggleBtn.style.display="block";
+//         navLinks.classList.toggle("active");
+//     })
+// })
