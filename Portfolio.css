@@ -499,7 +499,7 @@ body{
     width: 459px;
     height:300px;
     /* height: 300px; */
-    /* object-fit:cover; */
+    object-fit:cover;
 }
 
 .layer{
